@@ -1,0 +1,12 @@
+{
+    "name": "abtc/embed2link",
+    "description": "Embed souce link to link url.",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Toshio Abe",
+            "email": "abtoc88@gmail.com"
+        }
+    ],
+    "require": {}
+}
