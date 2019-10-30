@@ -8,5 +8,15 @@
             "email": "abtoc88@gmail.com"
         }
     ],
-    "require": {}
+    "require": {
+        "paquettg/php-html-parser": "^2.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Abtc\\": "src/Abtc/"
+        }
+    }
 }
