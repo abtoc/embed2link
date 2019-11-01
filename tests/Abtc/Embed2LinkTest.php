@@ -1,8 +1,5 @@
 <?php
 
-require 'vendor/autoload.php';
-require 'src/Abtc/Embed2Link.php';
-
 use Abtc\Embed2Link;
 
 class Embed2LinkTest extends \PHPUnit\Framework\TestCase {

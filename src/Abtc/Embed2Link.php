@@ -48,7 +48,7 @@ class Embed2Link {
         // 埋め込み動画の場合
         $tag = $dom->find('iframe');
         if(count($tag) > 0){
-            return Embed2Link::convert($tag[0]->src);
+            return self::convert($tag[0]->src);
         }
         // リンク動画の場合
         $tag = $dom->find('a');
